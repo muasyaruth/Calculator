@@ -1,0 +1,21 @@
+.keys{
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px;
+
+    gap: 40px;
+    max-width: 40vw;
+}
+
+.keys > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    gap: 20px;
+}
